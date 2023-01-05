@@ -1,0 +1,32 @@
+{
+  "contextName": "us-document-id",
+  "id": "udi",
+  "@context": ["raw.githubusercontent.com/ziden/us-fips-subdivision-code.json"],
+  "address": {
+    "@type": "std:object",
+    "street-number": {
+      "@type": "std:string",
+      "id": "ziden-vocab: val-1"
+    },
+    "street-name": {
+      "@type": "std:string",
+      "id": "ziden-vocab: val-1"
+    },
+    "county": {
+      "@type": "fips-usc:county-code",
+      "id": "ziden-vocab: val-1"
+    },
+    "state": {
+      "@type": "fips-usc:state-code",
+      "id": "ziden-vocab: val-1"
+    }
+  },
+  "gender": {
+    "type": "std:string",
+    "values": ["male", "female", "others"]
+  },
+  "id-number": {
+    "type": "std:string",
+    "values": []
+  }
+}
