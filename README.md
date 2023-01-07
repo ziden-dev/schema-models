@@ -18,6 +18,7 @@ This repository contain some example of the json for Ziden schema with some rela
 - The type of a property is defined by the **"type"** tag.
 ## Standard data type
 - The standard data type have the id notation of *std* 
+
 | Notation   | Type    | Description                                                |
 | ---------- | ------- | ---------------------------------------------------------- |
 | std:str    | String  | Standard string data type                                  |
