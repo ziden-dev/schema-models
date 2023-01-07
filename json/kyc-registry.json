@@ -7,27 +7,27 @@
     "raw.githubusercontent.com/ziden/country-code-iso-3166.json"
   ],
   "name": {
-    "id": "ziden-vocab: val-2",
+    "id": "std-pos: val-2",
     "type": "std:string"
   },
   "address": {
-    "id": "ziden-vocab: val-1",
+    "id": "std-pos: val-1",
     "type": "udi:address"
   },
   "gender": {
-    "id": "ziden-vocab: val-2",
+    "id": "std-pos: val-2",
     "type": "udi:gender"
   },
   "nationality": {
-    "id": "ziden-vocab: idx-1",
+    "id": "std-pos: idx-1",
     "type": "cc3166:numeric-code"
   },
   "countryOfResidence": {
-    "id": "ziden-vocab: idx-1",
+    "id": "std-pos: idx-1",
     "type": "cc3166:numeric-code"
   },
   "dateOfBirth": {
-    "id": "ziden-vocab: idx-2",
+    "id": "std-pos: idx-2",
     "type": "std:date"
   }
 }
