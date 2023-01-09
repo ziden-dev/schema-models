@@ -60,6 +60,7 @@ Example
 - The custom data type is *the stardard data type* which have *extra conditions or value range*.
 - The custom data type can only be defined in context.
 - Declaring a new data type is the same as declare a property in a schema.
+- To set the acceptable values for a custom property, we use the tag **"values"**. This contain an array of values which the corresponding property can get.
 
 Example: 
 ``` json
