@@ -1,7 +1,7 @@
 {
-  "name": "us-document-id",
+  "@name": "us-document-id",
   "@type": "context",
-  "id": "udi",
+  "@id": "usdi",
   "@context": ["raw.githubusercontent.com/ziden/us-fips-subdivision-code.json"],
   "address": {
     "@type": "std:object",

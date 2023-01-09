@@ -1,6 +1,7 @@
 {
-  "contextName": "country-code-iso-3166",
-  "id": "cc3166",
+  "@name": "country-code-iso-3166",
+  "@type": "context",
+  "@id": "cc3166",
   "@context": [],
   "numeric-code": {
     "type": "std:integer",

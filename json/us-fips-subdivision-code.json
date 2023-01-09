@@ -1,6 +1,7 @@
 {
-  "contextName": "us-fips-subdivision-code",
-  "id": "fips-usc",
+  "@name": "us-fips-subdivision-code",
+  "@type": "context",
+  "@id": "fips-usc",
   "@context": [],
   "state-code": {
     "@type": "std:string",

@@ -1,12 +1,36 @@
 This repository contain some example of the json for Ziden schema with some related context . 
-# Name
-- To define the name of the schema or context we use **"name"** tag.
-# Context
+# General information
+
+## @name
+
+- To define the name of the schema or context we use **"@name"** tag.
+
+## @type
+
+- To define whether this is a schema or a context, we use the tag **"@type"** 
+
+## @context
+
 - To define the contexts or the conditions of one or multiple data type in the schema, we use **"@context"** tag.
-- This contain an array of URI of predefined contexts or schemas that user want to use in their schema. 
-# ID
+- This contain an array of URI of predefined contexts that user want to uses in their schema.
+
+## @id
+- The **"@id"** tag contain a string that uniquely define the schema or context.    
+- For context, the **"@id"** is also used to refer the corresponding context that user want to uses.
+
+Example 
+![[img/id-reference.png]]
+
+## @hash (schema only)
+
+- **"@hash"** tag contain the hash of the corresponding schema. This help to validate the correctness of the schema we are using.
+
+# Properties information
+## ID
 - To specify the position of a property in a claim, we use the tag **"@id"**
-## Standard position vocab
+
+**Standard position vocab**
+
 | Notation       | Slot index |
 | -------------- |:----------:|
 | std-pos: idx-1 |     2      |
@@ -14,9 +38,11 @@ This repository contain some example of the json for Ziden schema with some rela
 | std-pos: val-1 |     6      |
 | std-pos: val-2 |     7      |
 
-# Type
-- The type of a property is defined by the **"type"** tag.
-## Standard data type
+## Data type
+- The data type of a property is defined by the **"type"** tag.
+
+### Standard data type
+
 - The standard data type have the id notation of *std* 
 
 | Notation   | Type    | Description                                                |
@@ -28,8 +54,9 @@ This repository contain some example of the json for Ziden schema with some rela
 | std:bool   | Boolean | Standard boolean data type                                 |
 | std:date   | Date    | Date in YYYYMMDD format (no space or delimiter in between) |
 
-## Custom data type
-- The custom data type is *the stardard data type* which have *extra condition or value range*.
+### Custom data type
+
+- The custom data type is *the stardard data type* which have *extra conditions or value range*.
 - The custom data type can only be defined in context.
 - Declaring a new data type is the same as declare a property in a schema.
 
@@ -37,7 +64,7 @@ Example:
 ``` json
 {
 "@type": "context",
-"name":"US Identity Document",
+"@name":"US Identity Document",
 "@id":"udi"
 ...
 "gender":{
@@ -45,22 +72,4 @@ Example:
 	"values": ["male", "female", "other"]
 	}
 }
-
-{
-"@type":"schema",
-"name": "KYC form",
-"@id": "12ab-34cd-56ef",
-"@context":[
-"raw.githubusercontent.com/ziden/schema-models/us-identity-document",
-...
-]
-...
-"gender":{
-	"@id":"std-pos: val-1",
-	"type":"udi:gender",
-}
-""
-}
-
 ```
-**Updating ...**

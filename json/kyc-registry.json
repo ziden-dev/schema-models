@@ -1,7 +1,8 @@
 {
-  "id": "12ab-34cd-56ef",
-  "schemaHash": "1234124",
-  "schemaName": "KYC form",
+  "@name": "KYC form",
+  "@type": "schema",
+  "@id": "12ab-34cd-56ef",
+  "@hash": "1234124",
   "@context": [
     "raw.githubusercontent.com/ziden/us-document-id.json",
     "raw.githubusercontent.com/ziden/country-code-iso-3166.json"
@@ -12,11 +13,11 @@
   },
   "address": {
     "id": "std-pos: val-1",
-    "type": "udi:address"
+    "type": "usdi:address"
   },
   "gender": {
     "id": "std-pos: val-2",
-    "type": "udi:gender"
+    "type": "usdi:gender"
   },
   "nationality": {
     "id": "std-pos: idx-1",
