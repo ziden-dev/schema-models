@@ -26,7 +26,7 @@ Example
 
 - **"@hash"** tag contain the hash of the corresponding schema. This help to validate the correctness of the schema we are using.
 
-# Properties information
+# Property information
 ## ID
 - To specify the position of a property in a claim, we use the tag **"@id"**
 
