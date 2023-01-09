@@ -19,7 +19,7 @@ This repository contain some example of the json for Ziden schema with some rela
 - For context, the **"@id"** is also used to refer the corresponding context that user want to uses.
 
 Example 
-![[img/id-reference.png]]
+![id-reference](./img/id-reference.png)
 
 ## @hash (schema only)
 
