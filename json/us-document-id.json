@@ -3,7 +3,7 @@
   "@type": "context",
   "@id": "usdi",
   "@context": [
-    "https://raw.githubusercontent.com/ziden-dev/schema-models/main/json/us-fips-subdivision-code.json?token=GHSAT0AAAAAABT4F5GCOSJP5WMTRD2OLYB6Y57QHYA"
+    "https://raw.githubusercontent.com/ziden-dev/schema-models/main/json/us-fips-subdivision-code.json"
   ],
   "address": {
     "@type": "std:object",
