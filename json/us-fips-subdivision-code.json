@@ -4,7 +4,7 @@
   "@id": "fips-usc",
   "@context": [],
   "state-code": {
-    "@type": "std:string",
+    "@type": "std:str",
     "values": [
       "01",
       "02",
@@ -60,7 +60,7 @@
     ]
   },
   "state-name": {
-    "@type": "std:string",
+    "@type": "std:str",
     "values": [
       "Alabama",
       "Alaska",
@@ -116,7 +116,7 @@
     ]
   },
   "county-code": {
-    "@type": "std:string",
+    "@type": "std:str",
     "values": [
       "01001",
       "01003",
@@ -3264,7 +3264,7 @@
     ]
   },
   "county-name": {
-    "@type": "std:string",
+    "@type": "std:str",
     "values": [
       "Autauga",
       "Baldwin",

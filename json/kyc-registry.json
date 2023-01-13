@@ -9,7 +9,7 @@
   ],
   "name": {
     "id": "std-pos: val-2",
-    "type": "std:string"
+    "type": "std:str"
   },
   "address": {
     "id": "std-pos: val-1",

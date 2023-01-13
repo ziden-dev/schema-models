@@ -8,11 +8,11 @@
   "address": {
     "@type": "std:object",
     "street-number": {
-      "@type": "std:string",
+      "@type": "std:str",
       "value": []
     },
     "street-name": {
-      "@type": "std:string",
+      "@type": "std:str",
       "value": []
     },
     "county": {
@@ -25,11 +25,11 @@
     }
   },
   "gender": {
-    "type": "std:string",
+    "type": "std:str",
     "values": ["male", "female", "others"]
   },
   "id-number": {
-    "type": "std:string",
+    "type": "std:str",
     "values": []
   }
 }
