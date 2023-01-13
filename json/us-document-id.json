@@ -6,17 +6,17 @@
     "https://raw.githubusercontent.com/ziden-dev/schema-models/main/json/us-fips-subdivision-code.json"
   ],
   "address": {
-    "@type": "std:object",
+    "type": "std:object",
     "street-number": {
-      "@type": "std:str",
+      "type": "std:str",
       "value": []
     },
     "street-name": {
-      "@type": "std:str",
+      "type": "std:str",
       "value": []
     },
     "county": {
-      "@type": "fips-usc:county-code",
+      "type": "fips-usc:county-code",
       "value": []
     },
     "state": {
