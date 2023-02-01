@@ -1,0 +1,26 @@
+{
+  "@name": "us-identity-docment",
+  "@type": "schema",
+  "@id": "1221-3223-1111-abcd",
+  "hash": "1234321",
+  "@context": [
+    "https://raw.githubusercontent.com/ziden-dev/schema-models/main/json/us-document-id.json",
+    "https://raw.githubusercontent.com/ziden-dev/schema-models/main/json/country-code-iso-3166.json"
+  ],
+  "fullName": {
+    "id": "std: idx-1",
+    "type": "std:str"
+  },
+  "dateOfBirth": {
+    "id": "std: idx-2",
+    "type": "std:date"
+  },
+  "nationality": {
+    "id": "std: val-1",
+    "type": "cc3166:numeric-code"
+  },
+  "countryOfResidence": {
+    "id": "std: val-2",
+    "type": "cc3166:numeric-code"
+  }
+}
