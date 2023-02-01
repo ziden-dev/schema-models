@@ -67,7 +67,7 @@ Example:
 {
 "@type": "context",
 "@name":"US Identity Document",
-"@id":"usdi"
+"@id":"usdi",
 "gender":{
 	"type": "std:string",
 	"values": ["male", "female", "other"]
