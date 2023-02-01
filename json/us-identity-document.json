@@ -12,15 +12,15 @@
     "type": "std:str"
   },
   "dateOfBirth": {
-    "id": "std: idx-2",
+    "id": "std-pos: idx-2",
     "type": "std:date"
   },
   "nationality": {
-    "id": "std: val-1",
+    "id": "std-pos: val-1",
     "type": "cc3166:numeric-code"
   },
   "countryOfResidence": {
-    "id": "std: val-1",
+    "id": "std-pos: val-1",
     "type": "cc3166:numeric-code"
   },
   "address": {
