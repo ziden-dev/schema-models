@@ -5,7 +5,7 @@
   "@context": [],
   "state-code": {
     "@type": "std:str",
-    "values": [
+    "@values": [
       "01",
       "02",
       "04",
@@ -61,7 +61,7 @@
   },
   "state-name": {
     "@type": "std:str",
-    "values": [
+    "@values": [
       "Alabama",
       "Alaska",
       "Arizona",
@@ -117,7 +117,7 @@
   },
   "county-code": {
     "@type": "std:str",
-    "values": [
+    "@values": [
       "01001",
       "01003",
       "01005",
@@ -3265,7 +3265,7 @@
   },
   "county-name": {
     "@type": "std:str",
-    "values": [
+    "@values": [
       "Autauga",
       "Baldwin",
       "Barbour",

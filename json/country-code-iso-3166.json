@@ -4,8 +4,8 @@
   "@id": "cc3166",
   "@context": [],
   "numeric-code": {
-    "type": "std:int64",
-    "values": [
+    "@type": "std:int64",
+    "@values": [
       4, 248, 8, 12, 16, 20, 24, 660, 10, 28, 32, 51, 533, 36, 40, 31, 44, 48,
       50, 52, 112, 56, 84, 204, 60, 64, 68, 535, 70, 72, 74, 76, 86, 96, 100,
       854, 108, 132, 116, 120, 124, 136, 140, 148, 152, 156, 162, 166, 170, 174,
@@ -24,7 +24,7 @@
       798, 800, 804, 784, 826, 581, 840, 858, 860, 548, 862, 704, 92, 850, 876,
       732, 887, 894, 716
     ],
-    "display": [
+    "@display": [
       "Afghanistan",
       "Åland Islands",
       "Albania",
@@ -277,8 +277,8 @@
     ]
   },
   "alpha-2-code": {
-    "type": "std:str",
-    "values": [
+    "@type": "std:str",
+    "@values": [
       "AF",
       "AX",
       "AL",
@@ -529,7 +529,7 @@
       "ZM",
       "ZW"
     ],
-    "display": [
+    "@display": [
       "Afghanistan",
       "Åland Islands",
       "Albania",
@@ -782,8 +782,8 @@
     ]
   },
   "alpha-3-code": {
-    "type": "std:str",
-    "values": [
+    "@type": "std:str",
+    "@values": [
       "AFG",
       "ALA",
       "ALB",
@@ -1034,7 +1034,7 @@
       "ZMB",
       "ZWE"
     ],
-    "display": [
+    "@display": [
       "Afghanistan",
       "Åland Islands",
       "Albania",
@@ -1287,8 +1287,8 @@
     ]
   },
   "country-name": {
-    "type": "std:str",
-    "values": [
+    "@type": "std:str",
+    "@values": [
       "Afghanistan",
       "Åland Islands",
       "Albania",

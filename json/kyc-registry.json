@@ -4,31 +4,31 @@
   "@id": "12ab-34cd-56ef",
   "@hash": "1234124",
   "@context": [
-    "https://raw.githubusercontent.com/ziden-dev/schema-models/main/json/us-document-id.json",
-    "https://raw.githubusercontent.com/ziden-dev/schema-models/main/json/country-code-iso-3166.json"
+    "https://raw.githubusercontent.com/z@iden-dev/schema-models/main/json/us-document-@id.json",
+    "https://raw.githubusercontent.com/z@iden-dev/schema-models/main/json/country-code-iso-3166.json"
   ],
   "name": {
-    "id": "std-pos: val-2",
-    "type": "std:str"
+    "@id": "std-pos: val-2",
+    "@type": "std:str"
   },
   "address": {
-    "id": "std-pos: val-1",
-    "type": "usdi:address"
+    "@id": "std-pos: val-1",
+    "@type": "usdi:address"
   },
   "gender": {
-    "id": "std-pos: val-2",
-    "type": "usdi:gender"
+    "@id": "std-pos: val-2",
+    "@type": "usdi:gender"
   },
   "nationality": {
-    "id": "std-pos: idx-1",
-    "type": "cc3166:numeric-code"
+    "@id": "std-pos: @idx-1",
+    "@type": "cc3166:numeric-code"
   },
-  "countryOfResidence": {
-    "id": "std-pos: idx-1",
-    "type": "cc3166:numeric-code"
+  "countryOfRes@idence": {
+    "@id": "std-pos: @idx-1",
+    "@type": "cc3166:numeric-code"
   },
   "dateOfBirth": {
-    "id": "std-pos: idx-2",
-    "type": "std:date"
+    "@id": "std-pos: @idx-2",
+    "@type": "std:date"
   }
 }
