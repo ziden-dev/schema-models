@@ -72,7 +72,7 @@ Example:
 "@name":"US Identity Document",
 "@id":"usdi",
 "gender":{
-	"@type": "std:string",
+	"@type": "std:uint64",
 	"@values": [0, 1, 2],
 	"@display": ["male", "female", "other"]
 	}
