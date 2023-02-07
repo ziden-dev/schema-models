@@ -26,6 +26,9 @@ Example
 
 - **"@hash"** tag contain the hash of the corresponding schema. This help to validate the correctness of the schema we are using.
 
+## @required (schema only)
+- **"@required"** tag contain list of the required properties in the the schema
+
 # Property information
 ## ID
 - To specify the position of a property in a claim, we use the tag **"@id"**
@@ -34,10 +37,10 @@ Example
 
 | Notation       | Slot index |
 | -------------- |:----------:|
-| std-pos: idx-1 |     2      |
-| std-pos: idx-2 |     3      |
-| std-pos: val-1 |     6      |
-| std-pos: val-2 |     7      |
+| std-pos:idx-1  |     2      |
+| std-pos:idx-2  |     3      |
+| std-pos:val-1  |     6      |
+| std-pos:val-2  |     7      |
 
 ## Data type
 - The data type of a property is defined by the **"type"** tag.
@@ -61,7 +64,7 @@ Example
 - The custom data type can only be defined in context.
 - Declaring a new data type is the same as declare a property in a schema.
 - To set the acceptable values for a custom property, we use the tag **"values"**. This contain an array of values which the corresponding property can get.
-
+- Some custom data type could have the values abstracted which may confused users so we use the **"@display"** and **"@values"** to distinguish between the values added to claims and the ones displayed for the users. These two have 1 to 1 mapping, so for each value in the **"@values"** list there always a corresponding value in the **"@display"** list.
 Example: 
 ``` json
 {
@@ -69,8 +72,9 @@ Example:
 "@name":"US Identity Document",
 "@id":"usdi",
 "gender":{
-	"type": "std:string",
-	"values": ["male", "female", "other"]
+	"@type": "std:string",
+	"@values": [0, 1, 2],
+	"@display": ["male", "female", "other"]
 	}
 }
 ```
