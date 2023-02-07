@@ -49,14 +49,14 @@ Example
 
 - The standard data type have the id notation of *std* 
 
-| Notation   | Type    | Description                                                |
-| ---------- | ------- | ---------------------------------------------------------- |
-| std:str    | String  | Standard string data type                                  |
-| std:int64  | Integer | Standard 64-bit integer type                               |
-| std:double | Double  | Standard 64-bit double type                                |
-| std:obj    | Object  | Nesting of one or many child property                      |
-| std:bool   | Boolean | Standard boolean data type                                 |
-| std:date   | Date    | Date in YYYYMMDD format (no space or delimiter in between) |
+| Notation   | Type    | Description                                                | Length 		 | 
+| ---------- | ------- | ---------------------------------------------------------- | ---------- |
+| std:str    | String  | Standard string data type                                  | 125 bits   |
+| std:int32  | Integer | Standard 32-bit integer type                               | 32 bits    |
+| std:double | Double  | Standard 64-bit double type                                | 64 bits    |
+| std:obj    | Object  | Nesting of one or many child property                      | undefined  |
+| std:bool   | Boolean | Standard boolean data type                                 | 1 bit      |
+| std:date   | Date    | Date in YYYYMMDD format (no space or delimiter in between) | 32 bits    |
 
 ### Custom data type
 

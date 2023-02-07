@@ -5,6 +5,11 @@
   "@context": [
     "https://raw.githubusercontent.com/ziden-dev/schema-models/main/json/us-fips-subdivision-code.json"
   ],
+  "doc-type": {
+    "@type": "std:int",
+    "@values": [0, 1],
+    "@display": ["Passport", "Identity Card"]
+  },
   "address": {
     "@type": "std:obj",
     "street-number": {
@@ -25,7 +30,7 @@
     }
   },
   "gender": {
-    "@type": "std:int64",
+    "@type": "std:int",
     "@values": [0, 1, 2],
     "@display": ["male", "female", "others"]
   },

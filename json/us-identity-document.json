@@ -7,24 +7,32 @@
     "https://raw.githubusercontent.com/ziden-dev/schema-models/main/json/us-document-id.json",
     "https://raw.githubusercontent.com/ziden-dev/schema-models/main/json/country-code-iso-3166.json"
   ],
+  "documentId": {
+    "@id": "std-pos:idx-1",
+    "@type": "std:str"
+  },
+  "documentType": {
+    "@id": "std-pos:idx-2",
+    "@type": "usdi:doc-type"
+  },
   "fullName": {
-    "@id": "std-pos: idx-1",
+    "@id": "std-pos:val-1",
     "@type": "std:str"
   },
   "dateOfBirth": {
-    "@id": "std-pos: idx-2",
+    "@id": "std-pos:val-1",
     "@type": "std:date"
   },
   "nationality": {
-    "@id": "std-pos: val-1",
+    "@id": "std-pos:val-1",
     "@type": "cc3166:numeric-code"
   },
   "countryOfResidence": {
-    "@id": "std-pos: val-1",
+    "@id": "std-pos:val-1",
     "@type": "cc3166:numeric-code"
   },
   "address": {
-    "@id": "std-pos: val-2",
+    "@id": "std-pos:val-2",
     "@type": "usdi:address"
   },
   "@required": [

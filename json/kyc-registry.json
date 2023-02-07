@@ -23,11 +23,11 @@
     "@id": "std-pos:idx-1",
     "@type": "cc3166:numeric-code"
   },
-  "countryOfResidence": {
+  "country-of-residence": {
     "@id": "std-pos:idx-1",
     "@type": "cc3166:numeric-code"
   },
-  "dateOfBirth": {
+  "date-of-birth": {
     "@id": "std-pos:idx-2",
     "@type": "std:date"
   },
