@@ -36,10 +36,10 @@
     "@type": "usdi:address"
   },
   "@required": [
-    "fullName",
-    "dateOfBirth",
+    "full-name",
+    "date-of-birth",
     "nationality",
-    "countryOfResidence",
+    "country-of-residence",
     "address"
   ]
 }
