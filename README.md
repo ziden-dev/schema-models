@@ -64,7 +64,7 @@ Example
 - The custom data type can only be defined in context.
 - Declaring a new data type is the same as declare a property in a schema.
 - To set the acceptable values for a custom property, we use the tag **"values"**. This contain an array of values which the corresponding property can get.
-- Some custom data type could have the values abstracted which may confused users so we use the **"@display"** and **"@values"** to distinguish between the values added to claims and the ones displayed for the users. These two have 1 to 1 mapping, so for each value in the **"@values"** list there always a corresponding value in the **"@display"** list.
+- Some custom data type could have the values abstracted which may confused users so we use the **"@display"** and **"@values"** to distinguish between the values added to claims and the ones displayed for the users. These two list have 1 to 1 mapping, so for each value in the **"@values"** list always has a corresponding value in the **"@display"** list.
 Example: 
 ``` json
 {
