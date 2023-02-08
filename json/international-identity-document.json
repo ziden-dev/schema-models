@@ -1,5 +1,5 @@
 {
-  "@name": "us-identity-docment",
+  "@name": "international-identity-docment",
   "@type": "schema",
   "@id": "1221-3223-1111-abcd",
   "@hash": "1234321",
@@ -7,19 +7,19 @@
     "https://raw.githubusercontent.com/ziden-dev/schema-models/main/json/us-document-id.json",
     "https://raw.githubusercontent.com/ziden-dev/schema-models/main/json/country-code-iso-3166.json"
   ],
-  "documentId": {
-    "@id": "std-pos:idx-1",
-    "@type": "std:str"
-  },
-  "documentType": {
+  "document-type": {
     "@id": "std-pos:idx-1",
     "@type": "usdi:doc-type"
   },
-  "fullName": {
+  "document-id": {
+    "@id": "std-pos:idx-1",
+    "@type": "std:str"
+  },
+  "full-name": {
     "@id": "std-pos:val-1",
     "@type": "std:str"
   },
-  "dateOfBirth": {
+  "date-of-birth": {
     "@id": "std-pos:val-1",
     "@type": "std:date"
   },
@@ -27,9 +27,16 @@
     "@id": "std-pos:val-2",
     "@type": "cc3166:numeric-code"
   },
-  "countryOfResidence": {
+  "country-of-residence": {
     "@id": "std-pos:val-2",
     "@type": "cc3166:numeric-code"
   },
-  "@required": []
+  "@required": [
+    "document-id",
+    "document-type",
+    "full-name",
+    "date-of-birth",
+    "nationality",
+    "country-of-residence"
+  ]
 }
