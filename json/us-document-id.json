@@ -12,11 +12,7 @@
   },
   "address": {
     "@type": "std:obj",
-    "street-number": {
-      "@type": "std:str",
-      "@values": []
-    },
-    "street-name": {
+    "street": {
       "@type": "std:str",
       "@values": []
     },
