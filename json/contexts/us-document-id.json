@@ -3,7 +3,7 @@
   "@type": "context",
   "@id": "usdi",
   "@context": [
-    "https://raw.githubusercontent.com/ziden-dev/schema-models/main/json/us-fips-subdivision-code.json"
+    "https://raw.githubusercontent.com/ziden-dev/schema-models/main/json/contexts/us-fips-subdivision-code.json"
   ],
   "doc-type": {
     "@type": "std:int",
