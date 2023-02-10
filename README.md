@@ -52,7 +52,7 @@ Example
 | Notation   | Type    | Description                                                | Length 		 | 
 | ---------- | ------- | ---------------------------------------------------------- | ---------- |
 | std:str    | String  | Standard string data type                                  | 125 bits   |
-| std:int32  | Integer | Standard 32-bit integer type                               | 32 bits    |
+| std:int  	 | Integer | Standard 32-bit integer type                               | 32 bits    |
 | std:double | Double  | Standard 64-bit double type                                | 64 bits    |
 | std:obj    | Object  | Nesting of one or many child property                      | undefined  |
 | std:bool   | Boolean | Standard boolean data type                                 | 1 bit      |
