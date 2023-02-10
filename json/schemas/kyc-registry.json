@@ -4,8 +4,8 @@
   "@id": "12ab-34cd-56ef",
   "@hash": "1234124",
   "@context": [
-    "https://raw.githubusercontent.com/ziden-dev/schema-models/main/json/us-document-id.json",
-    "https://raw.githubusercontent.com/ziden-dev/schema-models/main/json/country-code-iso-3166.json"
+    "https://raw.githubusercontent.com/ziden-dev/schema-models/main/json/contexts/us-document-id.json",
+    "https://raw.githubusercontent.com/ziden-dev/schema-models/main/json/contexts/country-code-iso-3166.json"
   ],
   "name": {
     "@id": "std-pos:val-2",
