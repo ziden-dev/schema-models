@@ -16,10 +16,6 @@
       "@type": "std:str",
       "@values": []
     },
-    "county": {
-      "@type": "fips-usc:county-code",
-      "@values": []
-    },
     "state": {
       "@type": "fips-usc:state-code",
       "@values": []
