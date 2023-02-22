@@ -1,7 +1,7 @@
 {
   "@name": "ziden-general-context",
   "@type": "context",
-  "@id": "zgc",
+  "@id": "zc",
   "@context": [],
   "role": {
     "@type": "std:int",
