@@ -1,0 +1,18 @@
+{
+  "@name": "Basic course certificate",
+  "@type": "schema",
+  "@context": [],
+  "@id": "1231-abca-1122-aabb",
+  "certificate-id": {
+    "@id": "std-pos:idx-1",
+    "@type": "std:str"
+  },
+  "name": {
+    "@id": "std-pos:val-1",
+    "@type": "std:str"
+  },
+  "result": {
+    "@id": "std-pos:val-1",
+    "@type": "std:str"
+  }
+}

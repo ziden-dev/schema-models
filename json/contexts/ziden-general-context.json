@@ -1,0 +1,11 @@
+{
+  "@name": "ziden-general-context",
+  "@type": "context",
+  "@id": "zgc",
+  "@context": [],
+  "role": {
+    "@type": "std:int",
+    "@values": [0, 1, 2, 3, 4],
+    "@display": ["Owner", "Admin", "Moderator", "Member", "Contributor"]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "@name": "Basic membership",
+  "@type": "schema",
+  "@id": "1212-abab-3434-cdcd",
+  "@context": [
+    "https://raw.githubusercontent.com/ziden-dev/schema-models/main/json/contexts/ziden-general-context.json"
+  ],
+  "membershipId": {
+    "@id": "std-pos:idx-1",
+    "@type": "std:str"
+  },
+  "role": {
+    "@id": "std-pos:idx-1",
+    "@type": "zc:role"
+  },
+  "name": {
+    "@id": "std-pos:val-1",
+    "@type": "std:str"
+  }
+}
